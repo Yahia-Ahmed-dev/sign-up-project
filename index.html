@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dangrek&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="left-side">
+            <div class="logo">
+                <h1>ODIN</h1>
+                <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png"
+                    alt="logo">
+            </div>
+        </div>
+        <div class="right-side">
+            <h1>This is a sign form project,</h1>
+            <h2>it is not a real project, it's just a prototype for learning Html and Css,So sign-up now to get
+                started</h2>
+            <h3>Lets'do this now!</h3>
+
+            <form action="#" method="post">
+                <div class="form-group">
+                    <div class="input-box">
+                        <label for="First-Name">First Name</label>
+                        <input id="First-Name" type="text" required name="First-Name">
+                    </div>
+
+                    <div class="input-box">
+                        <label for="Last-Name">Last Name</label>
+                        <input id="Last-Name" type="text" required name="Last-Name">
+                    </div>
+
+                    <div class="input-box">
+                        <label for="Email">Email</label>
+                        <input id="Email" type="email" required name="Email">
+                    </div>
+
+                    <div class="input-box">
+                        <label for="Phone">Phone Number</label>
+                        <input id="Phone" type="number" required name="Phone">
+                    </div>
+                </div>
+
+                <!-- جعل كلمة المرور تأخذ سطر كامل -->
+                <div class="password-group">
+
+                    <div class="input-box">
+                        <label for="password">Password</label>
+                        <input class="Password" id="password" type="password" required name="password">
+                    </div>
+                    <div class="input-box">
+                        <label for="Confirm-Password">Confirm Password</label>
+                        <input class="Password" id="Confirm-Password" type="password" required name="Confirm-Password">
+                    </div>
+                </div>
+                <button type="submit">Create Account</button>
+                <div class="sign-up">
+                    <p>Already have an account?<a href="#">Log in</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
